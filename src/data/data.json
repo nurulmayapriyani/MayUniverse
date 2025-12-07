@@ -1,0 +1,29 @@
+{
+  "mayuniverse": [
+    {
+      "thumb_src": "/images/trust_quick_hub_ig.png",
+      "title": "Trust Quick Hub Instagram",
+       "link": "http://instagram.com/trustquickhub"
+    },
+    {
+      "thumb_src": "/images/kitchen_of_may_ig.png",
+      "title": "Kitchen of May Instagram",
+       "link": "http://instagram.com/kitchenofmay"
+    },
+    {
+      "thumb_src": "/images/artwork_by_nma_ig.png",
+      "title": "Artwork by NMA",
+       "link": "http://instagram.com/artworkbynma"
+    },
+    {
+      "thumb_src": "/images/kitchen_of_may_tt.png",
+      "title": "Kitchen of May Tiktok",
+      "link": "https://www.tiktok.com/@kitchenofmay"
+    },
+    {
+      "thumb_src": "/images/may_who_yt.png",
+      "title": "Youtube Channel",
+       "link": "https://www.youtube.com/@maywho"
+    }  
+  ]
+}

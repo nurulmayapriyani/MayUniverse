@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+import data from '../data/data.json';
+import '../../assets/scss/mayuniverse.scss';
+import CardGalaxy from '../components/cards/cardGalaxy';
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+---
+
+<Layout title="Landing Page">
+	<main>
+    <Navbar />
+    <div class="container mt-5">
+      <div class="row mb-5">
+        <div class="d-block text-center mb-5">
+          <h3>Welcome to MayUniverse — which galaxy do you want to visit?🌌</h3>
+          <h4>Let’s connect and grow — I’m here to follow/subscribe you right back🤍</h4>
+        </div>
+        {data.mayuniverse.map(galaxy => 
+          <div class="col-md-6 col-lg-3 mb-4">
+            <CardGalaxy
+              thumb_src = {galaxy.thumb_src}
+              title = {galaxy.title}
+              link = {galaxy.link}
+            />
+          </div>
+        )}
+      </div>
+
+      <div class="mb-5">
+        <Footer />
+      </div>
+    </div>
+  </main>
+
+</Layout>
