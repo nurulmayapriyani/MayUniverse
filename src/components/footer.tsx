@@ -13,7 +13,7 @@ export default function Footer() {
               >
                 MayUniverse • Grateful to have you here, your support keeps MayUniverse shining
               </a>
-              ✨
+              🌕
             </div>
           </div>
         </div>
